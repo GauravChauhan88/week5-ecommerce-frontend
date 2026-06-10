@@ -2,7 +2,7 @@
   "name": "week5-ecommerce-frontend",
   "private": true,
   "version": "0.0.0",
-  "homepage": "https://GauravChauhan88.github.io/week5-ecommerce-frontend",
+  "homepage": "https://gauravchauhan88.github.io/week5-ecommerce-frontend",
   "type": "module",
   "scripts": {
     "dev": "vite",
