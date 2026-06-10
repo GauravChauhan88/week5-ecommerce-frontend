@@ -1,0 +1,95 @@
+.product-list-page {
+  padding: 1.5rem 0;
+}
+
+/* Control Ribbon using Flexbox layout */
+.controls-ribbon {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1.5rem;
+  margin-bottom: 2rem;
+  background: #ffffff;
+  padding: 1rem;
+  border-radius: 10px;
+  border: 1px solid var(--border);
+}
+
+.search-box-container {
+  position: relative;
+  flex-grow: 1;
+  max-width: 450px;
+}
+
+.search-input {
+  width: 100%;
+  padding: 0.75rem 2.5rem 0.75rem 1rem;
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  font-size: 0.9rem;
+  outline: none;
+  transition: var(--transition-smooth);
+}
+
+.search-input:focus {
+  border-color: var(--primary);
+  box-shadow: 0 0 0 3px rgba(37, 99, 235, 0.15);
+}
+
+.clear-search {
+  position: absolute;
+  right: 12px;
+  top: 50%;
+  transform: translateY(-50%);
+  background: none;
+  border: none;
+  color: var(--gray);
+  cursor: pointer;
+  font-size: 0.9rem;
+}
+
+.filter-dropdowns {
+  display: flex;
+  gap: 1rem;
+}
+
+.control-select {
+  padding: 0.75rem 1rem;
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  background-color: #ffffff;
+  font-size: 0.9rem;
+  color: var(--dark);
+  cursor: pointer;
+  outline: none;
+}
+
+/* Advanced Multi-column Responsive Layout with CSS Grid */
+.products-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 2rem;
+}
+
+.no-products-fallback {
+  text-align: center;
+  padding: 5rem 2rem;
+  color: var(--gray);
+}
+
+/* Mobile responsive ribbon stack */
+@media (max-width: 768px) {
+  .controls-ribbon {
+    flex-direction: column;
+    align-items: stretch;
+  }
+  
+  .search-box-container {
+    max-width: 100%;
+  }
+
+  .filter-dropdowns {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+}
