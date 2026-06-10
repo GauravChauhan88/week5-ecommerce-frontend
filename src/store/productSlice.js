@@ -1,8 +1,8 @@
 import { createSlice } from '@reduxjs/toolkit';
 
 const initialProducts = [
-  { id: 1, name: 'Wireless Noise-Canceling Headphones', price: 8499, category: 'Electronics', rating: 4.5, image: '/headphones.jpg', description: 'High-fidelity audio with advanced noise-canceling technology, perfect for blocking out metro commutes.' },
-  { id: 2, name: 'Minimalist Leather Smartphone Case', price: 1299, category: 'Accessories', rating: 4.2, image: '/phone-case.jpg', description: 'Premium leather case matching modern aesthetics with standard drop protection.' },
+  { id: 1, name: 'Wireless Noise-Canceling Headphones', price: 8499, category: 'Electronics', rating: 4.5, image: 'headphones.jpg', description: 'High-fidelity audio with advanced noise-canceling technology, perfect for blocking out metro commutes.' },
+  { id: 2, name: 'Minimalist Leather Smartphone Case', price: 1299, category: 'Accessories', rating: 4.2, image: 'phone-case.jpg', description: 'Premium leather case matching modern aesthetics with standard drop protection.' },
   { id: 3, name: 'Braided USB-C Fast Charging Cable', price: 799, category: 'Electronics', rating: 4.8, image: '/cable.jpg', description: 'Durable nylon braided cord supporting maximum data throughput and ultra-fast charging speeds.' },
   { id: 4, name: 'Ergonomic Mechanical Keyboard', price: 6500, category: 'Electronics', rating: 4.7, image: '/keyboard.jpg', description: 'Hot-swappable RGB mechanical keyboard built for ultimate coding and productivity sessions.' },
   { id: 5, name: 'Water-Resistant Commuter Backpack', price: 2499, category: 'Accessories', rating: 4.4, image: '/backpack.jpg', description: 'Spacious daily backpack with dedicated laptop compartments and weather-proofing.' },
