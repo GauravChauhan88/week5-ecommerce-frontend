@@ -1,4 +1,4 @@
-# NoidaShopers - Premium Tech E-Commerce Platform 🚀
+# NoidaShop - Premium Tech E-Commerce Platform 🚀
 
 A highly responsive, state-driven, localized modern E-Commerce frontend web application built using **React 18**, **Vite**, and **Redux Toolkit**. The application showcases a slick gadget catalog with an advanced fluid search layout, custom filter matrix elements, dynamic cart tallies, and an inline wishlist engine.
 
